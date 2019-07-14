@@ -1,4 +1,4 @@
-let projects = require("../models/projects.js");
+let projects = require("../models/HW&Projects.js");
 
 module.exports = function (app) {
 
