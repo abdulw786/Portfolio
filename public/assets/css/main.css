@@ -149,7 +149,6 @@ body#bg-img {
   background-attachment: fixed;
   background-size: cover;
 }
-
 body#bg-img:after {
   content: '';
   position: absolute;
@@ -261,9 +260,10 @@ main#home h1 {
 }
 
 .projects {
-  display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+
 }
 
 .projects img {
@@ -276,7 +276,6 @@ main#home h1 {
   border-color: #eece1a;
   transition: all 0.5s ease-out;
 }
-
 .boxes {
   display: flex;
   flex-wrap: wrap;
