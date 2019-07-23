@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test" "echo \$NODE_ENV",
-    "start": "nodemon"
+    "test": "cross-env-shell NODE_ENV=test \"npm run test:lint && npm run test:test\"",
+    "test:lint": "cross-env-shell \"echo $NODE_ENV\"",
+    "test:test": "cross-env-shell \"echo $NODE_ENV\""
   },
   "repository": {
     "type": "git",
