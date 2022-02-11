@@ -21,7 +21,7 @@
   "homepage": "https://github.com/abdulw786/Portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "nodeman": "^1.1.2"
   }
 }
